@@ -19,7 +19,7 @@ var nam={
     contact:3245678,
 };
 
-for(dhar in nam){
-    console.log(dhar+" : "+nam[dhar])
-}
+// for(dhar in nam){
+//     console.log(dhar+" : "+nam[dhar])
+// }
 

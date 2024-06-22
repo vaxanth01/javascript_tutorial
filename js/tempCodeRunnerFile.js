@@ -1,10 +1,6 @@
-var nam={
-    fname:"dharani",
-    lname:"R",
-    age:21,
-    contact:3245678,
-};
+for(i=0;i<=10;i++){
+    if(i==7 || i==9){
+        continue;
+    }    console.log(i)
 
-for(dhar in nam){
-    console.log(dhar+" : "+nam[dhar])
 }
