@@ -6,12 +6,13 @@ var names=[
  
  for(group of names)
     {
-        inner:
         for(member of group){
             if(member.startsWith('s')){
                 console.log(member)
-                break inner;
+                break ;
             }
         }
     }
+
+
 
